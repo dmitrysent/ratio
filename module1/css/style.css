@@ -1,0 +1,166 @@
+body {
+  font-family: 'Ubuntu',  sans-serif;
+  
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 10px;
+  margin: 0 auto;
+  
+}
+
+.nav {
+  padding-top: 65px;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav__item {
+  display: flex;
+  margin-left: 121px;
+  gap: 40px;
+}
+
+.nav__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4B5D68;
+  transition: all .3s;
+
+}
+
+.nav__link:hover  {
+  color: #212353;
+  font-weight: 700;
+  
+}
+
+.header__content {
+  padding-top: 143px;
+  position: relative;
+}
+
+.header__content-title {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1.1;
+  color: #212353;
+  max-width: 645px;
+}
+
+.header__content-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #4B5D68;
+  max-width: 380px;
+  margin-top: 50px;
+}
+
+.header__content-btn {
+  display: inline-block;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.6;
+  align-items: center;
+  text-align: center;
+  padding: 16px 37px;
+  background-color: #9C69E2;
+  border-radius: 50px;
+  border: none;
+  color: #FFFFFF;
+  transition: all .3s;
+}
+.header__content-btn:hover {
+  background-color: #7850af;
+}
+
+
+.header__content-img {
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+}
+
+.more {
+  margin-top: 199px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+
+.more__content {
+  margin-left: 65px;
+  max-width: 475px;
+}
+
+.more__content-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.3;
+  align-items: center;
+
+  color: #212353;
+}
+
+.more__content-description {
+  margin-top: 40px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #4B5D68;
+}
+
+.features {
+  margin-top: 150px;
+}
+
+.features__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.3;
+  text-align: center;
+  color: #212353;
+}
+
+.features__subtitle {
+  margin: 0 auto;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+
+  color: #4B5D68;
+  max-width: 584px;
+}
+
+.features__wrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+
+.features__item {
+  max-width: 530px;
+  background-image: url(./img/item1.png);
+  background-position: left;
+  background-size: cover;
+}
+
+.reviews {
+  margin-top: 150px;
+}
+
+.footer {
+  margin-top: 150px;
+  
+}
+
