@@ -1,5 +1,5 @@
 # ratio
-## Обучение Ratio: Junior frontend-разработчик Vue.js
+## Программа обучение Ratio: Junior frontend-разработчик Vue.js
 
 ### Module 1
 HTML + CSS
