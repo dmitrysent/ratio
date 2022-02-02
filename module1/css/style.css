@@ -2,14 +2,14 @@ body {
   font-family: 'Ubuntu',  sans-serif;
 
   background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
-  
+
 }
 
 .container {
   max-width: 1140px;
   padding: 0 10px;
   margin: 0 auto;
-  
+
 }
 
 .nav {
@@ -35,7 +35,7 @@ body {
 
 .nav__link:hover  {
   color: #9C69E2;
-  
+
 }
 
 .header__content {
@@ -112,6 +112,7 @@ body {
 
 .more__content-description {
   margin-top: 40px;
+  /* TODO: Не использовался дефолтный шрифт */
   font-family: Avenir;
   font-weight: 500;
   font-size: 18px;
@@ -132,6 +133,7 @@ body {
 }
 
 .features__subtitle {
+  /* TODO: Можно было просто использовать margin 50 auto 0  */
   margin: 0 auto;
   margin-top: 50px;
   font-weight: 500;
@@ -162,6 +164,7 @@ body {
   align-items: center;
 }
 
+/* TODO: Можно было использовать clip-path это было бы практичней */
 .features__item:nth-child(2) {
   background-image: url(../img/item2.png);
 }
@@ -249,6 +252,7 @@ body {
   border-radius: 20px;
 }
 
+/* TODO: Лучше использовать класс hidden, чтобы скрывать вещи, которые вы готовите к интеграции */
 .reviews__item:nth-child(2),
 .reviews__item:nth-child(3) {
   display: none;
@@ -285,6 +289,7 @@ body {
   max-width: 385px;
 }
 
+/* TODO: Такие глобальные стили не допустимы, лучше сделать hr.line  */
 hr {
   margin-top: 150px;
   height: 2px;
@@ -296,7 +301,7 @@ hr {
   margin-top: 150px;
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .footer__links-logo {
@@ -386,7 +391,7 @@ hr {
   .header__content {
     padding-top: 50px;
   }
-  
+
   .header__content-title {
     font-size: 50px;
   }
@@ -481,7 +486,7 @@ hr {
     }
 
     .footer {
-      margin-top: 45px;      
+      margin-top: 45px;
     }
 
 }
@@ -504,7 +509,7 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
-    
+
   }
   .reviews__title {
     font-size: 35px;
@@ -581,7 +586,7 @@ hr {
     margin-top: 10px;
     font-size: 14px;
   }
-  
+
   .features__item-link {
     margin-top: 15px;
     font-size: 14px;
